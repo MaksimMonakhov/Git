@@ -2,54 +2,16 @@
 
 ## Краткое описание порядка действий, команды для репозитория
 
-1. Создадим папку с проектом на локальном компьютере.
-```
-mkdir my_project
-```
-
-2. Перейдем в созданную папку.
-```
-cd my_project
-```
-
-3. Инициализируем git.
-```
-git init
-```
-
-4. Зададим глобальные параметры.
-```
-git config --global user.name "Maksim Monakhov"
-```
-
-5. Создадим файл.
-```
-touch README.md
-```
-
-6. Поместим в "корзину".
-```
-git add --all
-```
-
-7. Синхронизируемся с гитом.
-```
-git remote add origin git@github.com:MaksimMonakhov/practic_1.git
-```
-
-8. Коммитим.
-```
-git commit -m 'Практика 1'
-```
-
-8. Пушим.
-```
-git push -u origin master
-```
-Далее
-```
-git push
-```
+1. Создадим папку с проектом на локальном компьютере.```mkdir my_project```
+2. Перейдем в созданную папку.```cd my_project```
+3. Инициализируем git.```git init```
+4. Зададим глобальные параметры.```git config --global user.name "Maksim Monakhov"```
+5. Создадим файл.```touch README.md```
+6. Поместим в "корзину".```git add --all```
+7. Синхронизируемся с гитом.```git remote add origin git@github.com:MaksimMonakhov/practic_1.git```
+8. Коммитим.```git commit -m 'Практика 1'```
+8. Пушим.```git push -u origin master```
+   Далее```git push```
 
 Далее возможно просто изменять файл и...
 ```
